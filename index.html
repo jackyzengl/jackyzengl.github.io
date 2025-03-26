@@ -1,284 +1,580 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-    <title>Zeng Long</title>
-
-    <meta name="author" content="Zeng Long">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="shortcut icon" href="./images/favicon/favicon.ico" type="image/x-icon"> -->
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Qian Yu">
+    <meta name="author" content="Qian Yu">
+    <link rel="icon" href="./bootstrap/favicon.ico">
+
+    <title>Qian's homepage</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./bootstrap/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="homepage.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./bootstrap/assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
 
-  <body class="english">
-    <button id="langToggle" style="position: fixed; top: 20px; right: 20px; z-index: 1000;">中文/EN</button>
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr style="padding:0px">
-              <td style="padding:2.5%;width:63%;vertical-align:middle">
-                <p class="name" style="text-align: center;">
-                  <span lang="zh">曾龙</span>
-                  <span lang="en">Zeng Long</span>
-                </p>
-                <p>
-                  <span lang="zh">我是清华大学的老师，联系方式是深圳市龙华区</span>
-                  <span lang="en">I'm a researcher at Tsinghua University...</span>
-                </p>
-                <p style="text-align:center">
-                  <a href="mailto:zenglong@sz.tsinghua.edu.cn">Email</a> &nbsp;/&nbsp;
-                  <a href="https://scholar.google.com/citations?hl=en&user=72QbaQwAAAAJ">Scholar</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/jackyzengl">Github</a>
-                </p>
-              </td>
-              <td style="padding:2.5%;width:37%;max-width:37%">
-                <a href="./images/zenglong.jpg">
-                    <img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" 
-                         alt="profile photo" 
-                         src="./images/zenglong.jpg" 
-                         class="hoverZoomLink">
-                </a>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2>
-                  <span lang="zh">研究方向</span>
-                  <span lang="en">Research</span>
-                </h2>
-                <p>
-                  <span lang="zh">我的研究兴趣包括...</span>
-                  <span lang="en">I'm interested in...</span>
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  <body>
 
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#news">News</a></li> 
+            <li><a href="#pub">Publications</a></li>
+            <li><a href="#teach">Teaching</a></li> 
+            <li><a href="https://github.com/QianYu-Lab/PyTorch-SVGRender" target="_blank">Tool</a></li>           
+            <li><a href="https://yuqian1023.github.io/demo-display/" target="_blank">Demo</a></li>
+            <!--<li><a href="#pub">Services</a></li>  -->                  
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
 
-    <!-- <tr onmouseout="r2r_stop()" onmouseover="r2r_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='r2r_image'><video  width=100% muted autoplay loop>
-          <source src="images/r2r.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='images/r2r.jpg' width=100%>
+    <div id="about" class="container">
+        <h1>Qian Yu  于 茜</h1>
+    </div>
+    <hr>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-2">
+          <!--<img src="me.jpg" class="img-responsive" alt="Responsive image">-->
+          <img src="Qian_latest.jpg" class="img-thumbnail" alt="Responsive image">
         </div>
-        <script type="text/javascript">
-          function r2r_start() {
-            document.getElementById('r2r_image').style.opacity = "1";
-          }
 
-          function r2r_stop() {
-            document.getElementById('r2r_image').style.opacity = "0";
-          }
-          r2r_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://relight-to-reconstruct.github.io/">
-          <span class="papertitle">Generative Multiview Relighting for
-3D Reconstruction under Extreme Illumination Variation</span>
-        </a>
-        <br>
-        <a href="https://hadizayer.github.io/">Hadi Alzayer</a>,
-        <a href="https://henzler.github.io/">Philipp Henzler</a>,
-				<strong>Jonathan T. Barron</strong>, 
-        <a href="https://jbhuang0604.github.io/">Jia-Bin Huang</a>,
-        <a href="https://pratulsrinivasan.github.io/">Pratul P. Srinivasan</a>, 
-        <a href="https://dorverbin.github.io/">Dor Verbin</a>
-        <br>
-        <em>CVPR</em>, 2025
-        <br>
-        <a href="https://relight-to-reconstruct.github.io/">project page</a>
-        /
-        <a href="https://arxiv.org/abs/2412.15211">arXiv</a>
-        <p></p>
-        <p>
-				Images taken under extreme illumination variation can be made consistent with diffusion, and this enables high-quality 3D reconstruction.
-        </p>
-      </td>
-    </tr> -->
+        <div class="col-xs-3">
+          <h4>Associate Professor</h4>
+          <address>
+            <a href="https://www.buaa.edu.cn/">Beihang University</a><br>
+            37 Xueyuan Rd. Haidian District,
+            Room C810 New Main Building（新主楼）<br>
+            Beijing, China
+          </address><address>
+            <strong>Email: <a href="qianyu@buaa.edu.cn">qianyu@buaa.edu.cn</a></strong><br>
+            <strong><a href="https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&hl=zh-CN&user=mmm90qgAAAAJ&sortby=pubdate">[Google Scholar] </a><a href="https://github.com/yuqian1023">[Github]</a></strong><br>
+          </address>
+        </div>
 
-    <tr>
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <img src="./images/grid.png" alt="GRID" width="160" height="160">
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://github.com/jackyzengl/GRID">
-          <span class="papertitle">
-            <span lang="zh">GRID: 基于场景图的指令驱动机器人任务规划</span>
-            <span lang="en">GRID: Scene Graph-based Task Planning for Instruction-Driven Robots</span>
-          </span>
-        </a>
-        <br>
-        <strong>Zhe Ni, Xiaoxin Deng, Cong Tai, Xinyue Zhu, Qinghongbing Xie, Weihang Huang, Xiang Wu, Long Zeng</strong>
-        <br>
-        <em>
-          <span lang="zh">GRID 项目</span>
-          <span lang="en">GRID Project</span>
-        </em>, 2025
-        <p lang="zh">提出基于场景图的机器人指令分解方法，通过图结构感知全局场景信息，实现持续的子任务规划。</p>
-        <p lang="en">Proposes a graph-based instruction decomposition approach that utilizes scene graphs for global perception and continuous subtask planning.</p>
-        <p>
-          <a href="https://jackyzengl.github.io/GRID.github.io/">
-            <span lang="zh">项目网站</span>
-            <span lang="en">Project Page</span>
-          </a>
-        </p>
-      </td>
-    </tr>
+        <div class="col-xs-7">
+          <p>I am an associate professor at the <a href="http://soft.buaa.edu.cn/">School of Software, Beihang University </a>. Before I joined Beihang in 2020, I was a postdoctoral research fellow at UC Berkeley / ICSI during 2018~2019, working with <a href="http://www1.icsi.berkeley.edu/~stellayu/">Prof. Stella Yu</a>. I received my Ph.D. degree from <a href="http://www.eecs.qmul.ac.uk/">Queen Mary University of London</a> in 2018, advised by <a href="http://personal.ee.surrey.ac.uk/Personal/Y.Song/">Prof. Yi-Zhe Song</a> and <a href="http://personal.ee.surrey.ac.uk/Personal/T.Xiang/index.html"> Prof. Tao (Tony) Xiang</a>.</p> 
+          <p>
+          My research is on computer vision and deep learning, with a foucs on sketch understanding and sketch-related applications. I am also interested in video understanding and medical image analysis. 
+          </p>
+          <strong>For Prospective Students</strong>: I am actively looking for highly-motivated Ph.D., Master students and Research Assistants (undergraduate/graduate level). Please email me with your CV and transcripts if you are interested in my research.
+        </div>
+      </div>
+
+      <hr>
+      <div id="news" class="container">
+        <h3>News</h3>
+        <div><strong>[Mar.2025]</strong> Our <a href="https://ieeexplore.ieee.org/document/10909425">SVGDreamer++ paper</a> got accepted by <strong>T-PAMI</strong></a>!</div>
+        <div><strong>[Mar.2025]</strong> Our <a href="https://arxiv.org/abs/2405.02962/">VectorPainter paper</a> got accepted by <strong>ICME'25</strong></a>!</div>
+        <div><strong>[Feb.2025]</strong> Our <a href="https://ximinng.github.io/LLM4SVGProject/">LLM4SVG paper</a> got accepted by <strong>CVPR'25</strong></a>!</div>
+        <div><strong>[Jun.2024]</strong> Our <a href="https://ieeexplore.ieee.org/document/10589301">SketchSampler++ paper</a> got accepted by <strong>T-PAMI</strong></a>!</div>
+        <div><strong>[Jun.2024]</strong> One paper got accepted by <strong>TMI</strong></a>!</div>
+        <div><strong>[Feb.2024]</strong> Two papers got accepted by <strong>CVPR'24</strong></a>!</div>
+        <div><strong>[Dec.2023]</strong> Three papers got accepted by <strong>AAAI'24</strong></a>!</div>
+        <div><strong>[Dec.2023]</strong> Selected for <a href="https://www.csig.org.cn/21/202310/51320.html">the Ninth Young Elite Scientists Sponsorship Program by CAST(中国科协青年人才托举工程)</a>!</div>
+        <div><strong>[Aug.2023]</strong> Will serve as <strong>Area Chair of CVPR'24</strong></a>!</div>
+        <div><strong>[Jul.2023]</strong> Will serve as <strong>Social Media & Web Chair of ACM MM'24</strong></a>!</div>
+        <div><strong>[Sep.2023]</strong> Awarded the <a href="https://www.ccf.org.cn/Collaboration/Enterprise_Fund/News/bd/2023-09-14/795567.shtml">CCF- Baidu Open Fund Project(CCF-百度松果基金项目)</a>!</div>
+        <div><strong>[Sep.2023]</strong> Our <a href="https://arxiv.org/abs/2306.14685">DiffSketcher paper</a> got accepted by <strong>NeurIPS 2023</strong></a>!</div>
+        <div><strong>[Sep.2023]</strong> One paper got accepted by <strong>PG'23</strong></a>!</div>
+        <div><strong>[Jul.2023]</strong> One paper got accepted by <strong>ACM MM'23</strong></a>!</div>
+        <div><strong>[Jun.2023]</strong> One paper got accepted by <strong>MICCAI'23</strong></a>!</div>
+        <div><strong>[Mar.2023]</strong> One paper got accepted by <strong>T-CSVT</strong></a>!</div>
+        <div><strong>[Feb.2023]</strong> One paper got accepted by <strong>ICDE'23</strong></a>!</div>
+        <div><strong>[Nov.2022]</strong> One paper got accepted by <strong>AAAI'23</strong></a> (Student Abstract Track)!</div>
+        <div><strong>[Oct.2022]</strong> One paper got accepted by <strong>WACV'22</strong></a>!</div>
+        <div><strong>[Sep.2022]</strong> One paper got accepted by <strong>T-CSVT</strong></a>!</div>
+        <div><strong>[Jul.2022]</strong> One paper got accepted by <strong>ECCV'22</strong></a>!</div>
+        <div><strong>[Apr.2022]</strong> Our Workshop on <a href="https://she-workshop.github.io/">Sketching for Human Expressivity</a> has been accepted by <strong>ECCV'22</strong></a>.</div>
+        <div><strong>[Dec.2021]</strong> Co-organized the workshop on <a href="http://2021.prcv.cn/topicforum_en.html#forum5">Sketching Understanding and Advanced Applications</a> at <a href="http://2021.prcv.cn/index_en.html"><strong>PRCV'21</strong></a>.</div>
+        <div><strong>[Oct.2021]</strong> Co-organized the 1st workshop on <a href="https://she-workshop.github.io/she-iccv21.html">Sketching for Human Expressivity (SHE)</a> at <strong>ICCV'21</strong>!</div>
+        <div><strong>[Jul.2021]</strong> One conference paper on spatio-temporal video grounding (STVG) got accepted by <strong>ICCV 2021</strong>! </div>
+        <div><strong>[Jun.2021]</strong> One journal paper on human-centric STVG got accepted by <a href="https://ieeexplore.ieee.org/abstract/document/9446308">IEEE T-CSVT</a>! </div>
+        <div><strong>[Apr.2021]</strong> Gave a talk "Sketch-based photo and 3D generation" at <a href="http://tc.ccf.org.cn/ccfcv/zyhd/sjwx/2021-05-11/728463.shtml">CCF-CV seminar (CCF-CV视界无限)</a></div>
+        <div><strong>[Feb.2021]</strong> One journal paper on AI for Civil Engineering got published by <a href="https://www.sciencedirect.com/science/article/pii/S0926580520310542">Automation in Construction</a>!</div>
+        <div><strong>[Dec.2020]</strong> Organized the CCF-CV series talk (CCF-CV走进高校) at Beihang. See details <a href="http://tc.ccf.org.cn/ccfcv/zyhd/ccfcvzjgx/2021-05-05/727893.shtml">here</a> (in Chinese).</div>
+        <div><strong>[Oct.2020]</strong> One journal paper on AI for Civil Engineering got published on <a href="https://link.springer.com/article/10.1007/s11803-020-0598-2">EEEV</a>!</div>
+        <div><strong>[Sep.2020]</strong> One journal paper on sketch-based photo retrieval got accepted by <a href="https://link.springer.com/article/10.1007/s11263-020-01382-3">IJCV</a>!</div>
+        <div><strong>[Jul.2020]</strong> One conference paper on sketch-based photo synthesis got accepted at <strong>ECCV 2020</strong> as <strong>Oral</strong> presentation!</div>
+        <div><strong>[Jan.2020]</strong> Joined School of Software, Beihang University. <strong>New journey!</strong></div>
+      </div>
+
+      <hr>
+      <h3 id="pub" class="container">
+          <h3>Selected Publications </h3>
+          <div><a href="https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&hl=zh-CN&user=mmm90qgAAAAJ&sortby=pubdate">Full publication list can be found on Google Scholar. </a></div>
+          <div>*: corresponding author    #: equal contribution</div>
+          <hr>
+
+         <h3><strong>2024</strong></h3>
+          <div class="row">
+            <div class="col-xs-3">
+              <img src="./pic/SketchSampler++-TPAMI2023.png" class="img-responsive" alt="Responsive image"><br><br> 
+            </div>
+            <div class="col-xs-8">
+              <div><strong>3D Reconstruction From a Single Sketch via View-Dependent Depth Sampling</strong></div>
+              <div>Chenjian Gao#, Xilin Wang#, <strong>Qian Yu</strong>*, Lu Sheng, Jing Zhang, Xiaoguang Han, Yi-Zhe Song, and Dong Xu.</div>
+              <div>IEEE Transactions on Pattern Analysis and Machine Intelligence (<strong>T-PAMI</strong>), 2024.</div>
+              <div><a href="./papers/TPAMI_SketchSampler++.pdf">[ Paper (preprint) ]</a>&nbsp;
+              <a href="https://ieeexplore.ieee.org/document/10589301">[ DOI ]</a>
+              </div>
+            </div>
+          </div>
+        
+          <div class="row">
+            <div class="col-xs-3">
+              <img src="./pic/svgdreamer_pipe.jpg" class="img-responsive" alt="Responsive image"><br><br> 
+            </div>
+            <div class="col-xs-8">
+              <div><strong>SVGDreamer: Text Guided SVG Generation with Diffusion Model</strong></div>
+              <div>Ximing Xing, Haitao Zhou, Chuang Wang, Jing Zhang, Dong Xu, <strong>Qian Yu</strong>*.</div>
+              <div>IEEE Conference on Computer Vision and Pattern Recognition(<strong>CVPR</strong>), 2024.</div>
+              <div><a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Xing_SVGDreamer_Text_Guided_SVG_Generation_with_Diffusion_Model_CVPR_2024_paper.pdf">[ Paper ]</a>&nbsp;         
+              <a href="https://ximinng.github.io/SVGDreamer-project/">[ Project Page ]</a>&nbsp;
+              <a href="https://github.com/ximinng/SVGDreamer">[ Code ]</a>
+              </div>
+            </div>
+          </div>
+        
+         <div class="row">
+            <div class="col-xs-3">
+              <img src="./pic/GenesisTex_CVPR2024.jpg" class="img-responsive" alt="Responsive image"><br><br> 
+            </div>
+            <div class="col-xs-8">
+              <div><strong>GenesisTex: Adapting Image Denoising Diffusion to Texture Space</strong></div>
+              <div>Chenjian Gao, Boyan Jiang, Xinghui Li, Yingpeng Zhang, <strong>Qian Yu</strong>*.</div>
+              <div>IEEE Conference on Computer Vision and Pattern Recognition(<strong>CVPR</strong>), 2024.</div>
+              <div><a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Gao_GenesisTex_Adapting_Image_Denoising_Diffusion_to_Texture_Space_CVPR_2024_paper.pdf">[ Paper ]</a>         
+              </div>
+            </div>
+          </div>
+        
+          <h3><strong>2023</strong></h3>
+          <div class="row">
+            <div class="col-xs-3">
+              <img src="./pic/SOD_MM2023.jpg" class="img-responsive" alt="Responsive image"><br><br> 
+            </div>
+            <div class="col-xs-8">
+              <div><strong>Distortion-aware Transformer in 360 Salient Object Detection</strong></div>
+              <div>Yinjie Zhao, Lichen Zhao, <strong>Qian Yu</strong>*, Jing Zhang, Lu Sheng, Dong Xu.</div>
+              <div>ACM Multimedia(<strong>MM</strong>), 2023. <font color="red">Oral</font></div>
+              <div><a href="https://dl.acm.org/doi/abs/10.1145/3581783.3612025">[ Paper ]</a>         
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-3">
+              <img src="./pic/DiffSketcher_NeurIPS2023.jpg" class="img-responsive" alt="Responsive image"><br><br> 
+            </div>
+            <div class="col-xs-8">
+              <div><strong>DiffSketcher: Text Guided Vector Sketch Synthesis through Latent Diffusion Models</strong></div>
+              <div>Ximing Xing, Chuang Wang, Haitao Zhou, Jing Zhang, <strong>Qian Yu</strong>*, Dong Xu.</div>
+              <div>Conference on Neural Information Processing Systems(<strong>NeurIPS</strong>), 2023.</div>
+              <div><a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/333e67fc4728f147d31608db3ca78e09-Paper-Conference.pdf">[ Paper ]</a>&nbsp; 
+                <a href="https://ximinng.github.io/DiffSketcher-project/">[ Project Page ]</a>&nbsp;
+                <a href="https://github.com/ximinng/DiffSketcher">[ Code ]</a>
+              </div>
+            </div>
+          </div>
+
+          <h3><strong>2022</strong></h3>
+          <div class="row">
+            <div class="col-xs-3">
+              <img src="./pic/sketchsampler_ECCV2022.jpg" class="img-responsive" alt="Responsive image"><br><br> 
+            </div>
+            <div class="col-xs-8">
+              <div><strong>SketchSampler: Sketch-based 3D Reconstruction via View-dependent Depth Sampling</strong></div>
+              <div>Chenjian Gao, <strong>Qian Yu</strong>*, Lu Sheng, Yi-Zhe Song, Dong Xu.</div>
+              <div>European Conference on Computer Vision(<strong>ECCV</strong>), 2022.</div>
+              <div><a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136610457.pdf">[ Paper ]</a>         
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-3">
+              <img src="./pic/slowmotion_tcsvt2022.png" class="img-responsive" alt="Responsive image"><br><br> 
+            </div>
+            <div class="col-xs-8">
+              <div><strong>Slow Motion Matters: A Slow Motion Enhanced Network for Weakly Supervised Temporal Action Localization</strong></div>
+              <div>Weiqi Sun, Rui Su, <strong>Qian Yu</strong>*, Dong Xu.</div>
+              <div>IEEE Transactions on Circuits and Systems for Video Technology(<strong>T-CSVT</strong>), 2022.</div>
+              <div><a href="https://ieeexplore.ieee.org/document/9866801/">[ Paper ]</a>         
+              </div>
+            </div>
+          </div>
+
+        
+          <h3><strong>2021 and before</strong></h3>
+
+          <div class="row">
+            <div class="col-xs-3">
+              <img src="./pic/iccv21_stvg.jpg" class="img-responsive" alt="Responsive image"><br><br> 
+            </div>
+            <div class="col-xs-8">
+              <div><strong>STVGBert: A Visual-Linguistic Transformer Based Framework for Spatio-Temporal Video Grounding</strong></div>
+              <div>Rui Su, <strong>Qian Yu</strong>, Dong Xu.</div>
+              <div>IEEE International Conference on Computer Vision (<strong>ICCV</strong>), 2021.</div>
+              <div><a href="./papers/11_ICCV2021_STVGBert.pdf">[ Paper ]</a>&nbsp;
+              <class="link2"><a class="fakelink" onclick="$(this).siblings('.bibref').slideToggle()">[ Bibtex ]</a> 
+              <div class="bibref" hidden>
+              @InProceedings{Su_2021_ICCV,<br>
+                author    = {Su, Rui and Yu, Qian and Xu, Dong},<br>
+                title     = {STVGBert: A Visual-Linguistic Transformer Based Framework for Spatio-Temporal Video Grounding},<br>
+                booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},<br>
+                month     = {October},<br>
+                year      = {2021},<br>
+                pages     = {1533-1542}<br>
+              }
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-3">
+              <img src="./pic/ijcv21.jpg" class="img-responsive" alt="Responsive image"><br><br> 
+            </div>
+            <div class="col-xs-8">
+              <div><strong>Fine-Grained Instance-Level Sketch-Based Image Retrieval</strong></div>
+              <div><strong>Qian Yu</strong>#*, Jifei Song#, Yi-Zhe Song, Tao Xiang, Timothy M. Hospedales.</div>
+              <div>International Journal of Computer Vision (<strong>IJCV</strong>), 2021.</div>
+              <div><a href="./papers/6_IJCV2021_FG-SBIR_extension.pdf">[ Paper ]</a>&nbsp;<a href="https://link.springer.com/article/10.1007/s11263-020-01382-3">[ DOI ]</a>&nbsp;
+              <class="link2"><a class="fakelink" onclick="$(this).siblings('.bibref').slideToggle()">[ Bibtex ]</a>
+              <div class="bibref" hidden>
+              @article{yu2021fine,<br>
+                title={Fine-grained instance-level sketch-based image retrieval},<br>
+                author={Yu, Qian and Song, Jifei and Song, Yi-Zhe and Xiang, Tao and Hospedales, Timothy M},<br>
+                journal={International Journal of Computer Vision},<br>
+                volume={129},<br>
+                number={2},<br>
+                pages={484&nbsp;500},<br>
+                year={2021},<br>
+                publisher={Springer}<br>
+              }
+              </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-xs-3">
+              <img src="./pic/t-csvt20_stvg.jpg" class="img-responsive" alt="Responsive image"><br><br>
+            </div>
+            <div class="col-xs-8">
+              <div><strong>Human-centric Spatio-temporal Video grounding with Visual Transformers</strong></div>
+              <div>Zongheng Tang, Yue Liao, Si Liu, Guanbin Li, Xiaojie Jin, Hongxu Jiang, <strong>Qian Yu</strong>, Dong Xu</div>
+              <div>IEEE Transactions on Circuits and Systems for Video Technology (<strong>T-CSVT</strong>), 2021.</div>
+              <div><a href="./papers/9_TCSVT2021_STVG.pdf">[ Paper ]</a>&nbsp;
+                <a href="">[ DOI ]</a>&nbsp;
+                <a href="https://github.com/tzhhhh123/HC-STVG">[ HC-STVG Dataset ]</a>&nbsp;
+              <class="link2"><a class="fakelink" onclick="$(this).siblings('.bibref').slideToggle()">[ Bibtex ]</a>
+              <div class="bibref" hidden>
+              @article{tang2021human,<br>
+                title={Human-centric spatio-temporal video grounding with visual transformers},<br>
+                author={Tang, Zongheng and Liao, Yue and Liu, Si and Li, Guanbin and Jin, Xiaojie and Jiang, Hongxu and Yu, Qian and Xu, Dong},<br>
+                journal={IEEE Transactions on Circuits and Systems for Video Technology},<br>
+                year={2021},<br>
+                publisher={IEEE}<br>
+              }
+              </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-xs-3">
+              <img src="./pic/AiC2021_AI4CE.jpg" class="img-responsive" alt="Responsive image"><br><br><br><br> 
+            </div>
+            <div class="col-xs-8">
+              <div><strong>Machine learning-based regional scale intelligent modeling of building information for natural hazard risk management</strong></div>
+              <div>Chaofeng Wang, <strong>Qian Yu</strong>, Kincho H. Law, Frank McKenna, Stella X. Yu, Ertugrul Taciroglu, Adam Zsarn{\'o}czay, Wael Elhaddad, Barbaros Cetiner.</div>
+              <div>Automation in Construction, 2021.</div>
+              <div><a href="./papers/10_AiC2021_AI4CE.pdf">[ Paper ]</a>&nbsp;
+                <a href="https://doi.org/10.1016/j.autcon.2020.103474">[ DOI ]</a>&nbsp;
+              <class="link2"><a class="fakelink" onclick="$(this).siblings('.bibref').slideToggle()">[ Bibtex ]</a>
+              <div class="bibref" hidden>
+              @article{wang2021machine,<br>
+                title={Machine learning-based regional scale intelligent modeling of building information for natural hazard risk management},<br>
+                author={Wang, Chaofeng and Yu, Qian and Law, Kincho H and McKenna, Frank and Stella, X Yu and Taciroglu, Ertugrul and Zsarn{\'o}czay, Adam and Elhaddad, Wael and Cetiner, Barbaros},<br>
+                journal={Automation in Construction},<br>
+                volume={122},<br>
+                pages={103474},<br>
+                year={2021},<br>
+                publisher={Elsevier}<br>
+              }
+              </div>
+              </div>
+            </div>
+          </div>   
+
+
+          <div class="row">
+            <div class="col-xs-3">
+              <img src="./pic/eccv20.jpg" class="img-responsive" alt="Responsive image"><br><br><br> 
+            </div>
+            <div class="col-xs-8">
+              <div><strong>Unsupervised Sketch to Photo Synthesis</strong></div>
+              <div>Runtao Liu#, <strong>Qian Yu</strong>#*, Stella X. Yu.</div>
+              <div>European Conference on Computer Vision (<strong>ECCV</strong>), 2020. <font color="red">Oral</font></div>
+              <div><a href="./papers/7_ECCV2020_sketch-photo-generation.pdf">[ Paper ]</a>&nbsp;
+                <a href="./papers/7_ECCV2020_sketch-photo-generation_supp.pdf">[ supp ]</a>&nbsp;
+                <a href="https://github.com/rt219/Unsupervised-Sketch-to-Photo-Synthesis">[ Code ]</a>&nbsp;
+                <a href="https://drive.google.com/file/d/15s2BR-QwLgX_DObQBrYlUlZqUU90EL9G/view">[QMUL-Sketch Dataset (Google Drive)]</a><br>
+                <a href="https://pan.baidu.com/share/init?surl=RWGZmRH_lGRrX6T4HMK6CA">[QMUL-Sketch Dataset (Baidu Cloud)]</a>(Password:68uo)&nbsp;
+              <class="link2"><a class="fakelink" onclick="$(this).siblings('.bibref').slideToggle()">[ Bibtex ]</a>
+              <div class="bibref" hidden>
+              @inproceedings{liu2020unsupervised,<br>
+                title={Unsupervised sketch to photo synthesis},<br>
+                author={Liu, Runtao and Yu, Qian and Yu, Stella X},<br>
+                booktitle={European Conference on Computer Vision},<br>
+                pages={36--52},<br>
+                year={2020},<br>
+                organization={Springer}<br>
+              }
+              </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-xs-3">
+              <img src="./pic/eeev18_softstory.jpg" class="img-responsive" alt="Responsive image"><br><br> 
+            </div>
+            <div class="col-xs-8">
+              <div><strong>Rapid visual screening of soft-story buildings from street view images using deep learning classification</strong></div>
+              <div><strong>Qian Yu</strong>, Chaofeng Wang, Frank McKenna, Stella X. Yu, Ertugrul Taciroglu, Barbaros Cetiner, Kincho H. Law.</div>
+              <div>Earthquake Engineering and Engineering Vibration, 2020.</div>
+              <div><a href="./papers/8_EEEV2020_softStory.pdf">[ Paper ]</a>&nbsp;
+                <a href="https://doi.org/10.1007/s11803-020-0598-2">[ DOI ]</a>&nbsp;
+              <class="link2"><a class="fakelink" onclick="$(this).siblings('.bibref').slideToggle()">[ Bibtex ]</a>
+              <div class="bibref" hidden>
+              @article{yu2020rapid,<br>
+                title={Rapid visual screening of soft-story buildings from street view images using deep learning classification},<br>
+                author={Yu, Qian and Wang, Chaofeng and McKenna, Frank and Yu, Stella X and Taciroglu, Ertugrul and Cetiner, Barbaros and Law, Kincho H},<br>
+                journal={Earthquake Engineering and Engineering Vibration},<br>
+                volume={19},<br>
+                number={4},<br>
+                pages={827--838},<br>
+                year={2020},<br>
+                publisher={Springer}<br>
+              }
+              </div>
+              </div>
+            </div>
+          </div>                  
+
+
+          <div class="row">
+            <div class="col-xs-3">
+              <img src="./pic/neurips19_softstory.jpg" class="img-responsive" alt="Responsive image"><br><br><br> 
+            </div>
+            <div class="col-xs-8">
+              <div><strong>Building Information Modeling and Classification by Visual Learning At A City Scale</strong></div>
+              <div><strong>Qian Yu</strong>, Chaofeng Wang, Barbaros Cetiner, Stella X. Yu, Frank McKenna, Ertugrul Taciroglu, Kincho H. Law.</div>
+              <div>AI + HADR workshop @ NeurIPS 2019.</div>
+              <div><a href="https://arxiv.org/pdf/1910.06391.pdf">[ arXiv Paper ]</a>&nbsp;
+              <class="link2"><a class="fakelink" onclick="$(this).siblings('.bibref').slideToggle()">[ Bibtex ]</a>
+              <div class="bibref" hidden>
+              @article{yu2019building,<br>
+                title={Building information modeling and classification by visual learning at a city scale},<br>
+                author={Yu, Qian and Wang, Chaofeng and Cetiner, Barbaros and Yu, Stella X and Mckenna, Frank and Taciroglu, Ertugrul and Law, Kincho H},<br>
+                journal={arXiv preprint arXiv:1910.06391},<br>
+                year={2019}<br>
+              }
+              </div>
+              </div>
+            </div>
+          </div>  
+
+
+          <div class="row">
+            <div class="col-xs-3">
+              <img src="./pic/eccv18.jpg" class="img-responsive" alt="Responsive image"><br><br>
+            </div>
+            <div class="col-xs-8">
+              <div><strong>SketchyScene: Richly-Annotated Scene Sketches</strong></div>
+              <div>Changqing Zou#, <strong>Qian Yu</strong>#, Ruofei Du, Haoran Mo, Yi-Zhe Song, Tao Xiang, Chengying Gao, Baoquan Chen, Hao Zhang.</div>
+              <div>European Conference on Computer Vision (<strong>ECCV</strong>), 2018.</div>
+              <div><a href="./papers/5_ECCV18_SketchyScene.pdf">[ Paper ]</a>&nbsp;
+                <a href="https://sketchyscene.github.io/SketchyScene/">[ Project Page ]</a>&nbsp;
+              <class="link2"><a class="fakelink" onclick="$(this).siblings('.bibref').slideToggle()">[ Bibtex ]</a>
+              <div class="bibref" hidden>
+              @InProceedings{Zou_2018_ECCV,<br>
+                author = {Zou, Changqing and Yu, Qian and Du, Ruofei and Mo, Haoran and Song, Yi-Zhe and Xiang, Tao and Gao, Chengying and Chen, Baoquan and Zhang, Hao},<br>
+                title = {SketchyScene: Richly-Annotated Scene Sketches},<br>
+                booktitle = {Proceedings of the European Conference on Computer Vision (ECCV)},<br>
+                month = {September},<br>
+                year = {2018}<br>
+              }
+              </div>
+              </div>
+            </div>
+          </div>  
+
+
+          <div class="row">
+            <div class="col-xs-3">
+              <img src="./pic/ijcv17.jpg" class="img-responsive" alt="Responsive image"><br><br>
+            </div>
+            <div class="col-xs-8">
+              <div><strong>Sketch-a-Net: A Deep Neural Network that Beats Humans</strong></div>
+              <div><strong>Qian Yu</strong>*, Yongxin Yang, Feng Liu, Yi-Zhe Song, Tao Xiang, Timothy M. Hospedales.</div>
+              <div>International Journal of Computer Vision (<strong>IJCV</strong>), 2017.</div>
+              <div><a href="./papers/4_IJCV17_Sketch-a-Net_extension.pdf">[ Paper ]</a>&nbsp;
+                <a href="https://doi.org/10.1007/s11263-016-0932-3">[ DOI ]</a>&nbsp;
+                <a href="https://github.com/yuqian1023/sketch-specific-data-augmentation">[ Code ]</a>&nbsp;
+              <class="link2"><a class="fakelink" onclick="$(this).siblings('.bibref').slideToggle()">[ Bibtex ]</a>
+              <div class="bibref" hidden>
+              @article{yu2017sketch,<br>
+                title={Sketch-a-net: A deep neural network that beats humans},<br>
+                author={Yu, Qian and Yang, Yongxin and Liu, Feng and Song, Yi-Zhe and Xiang, Tao and Hospedales, Timothy M},<br>
+                journal={International journal of computer vision},<br>
+                volume={122},<br>
+                number={3},<br>
+                pages={411--425},<br>
+                year={2017},<br>
+                publisher={Springer}<br>
+              }
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-3">
+              <img src="./pic/iccv17.jpg" class="img-responsive" alt="Responsive image"><br><br>
+            </div>
+            <div class="col-xs-8">
+              <div><strong>Deep Spatial-Semantic Attention for Fine-Grained Sketch-Based Image Retrieval</strong></div>
+              <div>Jifei Song#, <strong>Qian Yu</strong>#, Yi-Zhe Song, Tao Xiang, Timothy M. Hospedales.</div>
+              <div>IEEE International Conference on Computer Vision (<strong>ICCV</strong>), 2017.</div>
+              <div><a href="./papers/3_ICCV17_SBIR-attention.pdf">[ Paper ]</a>&nbsp;
+                <a href="./papers/3_ICCV17_SBIR-attention_supp.pdf">[ supp ]</a>&nbsp;
+                <a href="https://github.com/yuqian1023/Deep_SBIR_tf">[ Code ]</a>&nbsp;
+              <class="link2"><a class="fakelink" onclick="$(this).siblings('.bibref').slideToggle()">[ Bibtex ]</a>
+              <div class="bibref" hidden>
+              @InProceedings{Song_2017_ICCV,<br>
+                author = {Song, Jifei and Yu, Qian and Song, Yi-Zhe and Xiang, Tao and Hospedales, Timothy M.},<br>
+                title = {Deep Spatial-Semantic Attention for Fine-Grained Sketch-Based Image Retrieval},<br>
+                booktitle = {Proceedings of the IEEE International Conference on Computer Vision (ICCV)},<br>
+                month = {Oct},<br>
+                year = {2017}<br>
+              }
+              </div>
+              </div>
+            </div>
+          </div>                  
+
+
+          <div class="row">
+            <div class="col-xs-3">
+              <img src="./pic/cvpr16.jpg" class="img-responsive" alt="Responsive image"><br><br>
+            </div>
+            <div class="col-xs-8">
+              <div><strong>Sketch Me That Shoe</strong></div>
+              <div><strong>Qian Yu</strong>*, Feng Liu, Yi-Zhe Song, Tao Xiang, Timothy M. Hospedales, Chen-Change Loy.</div>
+              <div>IEEE Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2016. <font color="red">Oral</font></div>
+              <div><a href="./papers/2_CVPR16_FG-SBIR.pdf">[ Paper ]</a>&nbsp;
+                <a href="https://github.com/yuqian1023/Deep_SBIR_tf">[ Code ]</a>&nbsp;
+                <a href="https://www.youtube.com/watch?v=10umqqPaX6s">[ Video ]</a>&nbsp;
+              <class="link2"><a class="fakelink" onclick="$(this).siblings('.bibref').slideToggle()">[ Bibtex ]</a>
+              <div class="bibref" hidden>
+              @InProceedings{Yu_2016_CVPR,<br>
+                author = {Yu, Qian and Liu, Feng and Song, Yi-Zhe and Xiang, Tao and Hospedales, Timothy M. and Loy, Chen-Change},<br>
+                title = {Sketch Me That Shoe},<br>
+                booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},<br>
+                month = {June},<br>
+                year = {2016}<br>
+              }
+              </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-xs-3">
+              <img src="./pic/bmvc15.jpg" class="img-responsive" alt="Responsive image"><br><br>
+            </div>
+            <div class="col-xs-8">
+              <div><strong>Sketch-a-Net that Beats Humans</strong></div>
+              <div><strong>Qian Yu</strong>#*, Yongxin Yang#, Yi-Zhe Song, Tao Xiang, Timothy M. Hospedales.</div>
+              <div>British Machine Vision Conferenc (<strong>BMVC</strong>), 2015. <font color="red">Best Scientific Paper</font></div>
+              <div><a href="./papers/1_BMVC15_Sketch-a-Net.pdf">[ Paper ]</a>&nbsp;
+                <a href="http://www.bmva.org/bmvc/2015/papers/paper007/index.html">[ Video ]</a>&nbsp;
+              <class="link2"><a class="fakelink" onclick="$(this).siblings('.bibref').slideToggle()">[ Bibtex ]</a>
+              <div class="bibref" hidden>
+              @article{yu2015sketch,<br>
+                title={Sketch-a-net that beats humans},<br>
+                author={Yu, Qian and Yang, Yongxin and Song, Yi-Zhe and Xiang, Tao and Hospedales, Timothy},<br>
+                journal={arXiv preprint arXiv:1501.07873},<br>
+                year={2015}</br>  
+              }
+              </div>
+              </div>
+            </div>
+          </div>
+      <section id="teach">
+
+      <div class="page-header">
+        <h3>Teaching<small></small></h3>
+      </div>
     
-    <!-- <tr>
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <img src="./images/DADA.png" alt="DADA" width="160" height="160">
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://github.com/jackyzengl/DADA">
-          <span class="papertitle">
-            <span lang="zh">DADA: 双重对齐领域适应用于行人轨迹预测</span>
-            <span lang="en">DADA: Dual-Alignment Domain Adaptation for Pedestrian Trajectory Prediction</span>
-          </span>
-        </a>
-        <br>
-        <strong>Jacky Zeng</strong>
-        <br>
-        <em>IEEE Robotics and Automation Letters (RAL)</em>, 2024
-        <p lang="zh">通过源域和目标域的双重对齐，提升跨领域行人轨迹预测的泛化能力。</p>
-        <p lang="en">Enhances cross-domain generalization in pedestrian trajectory prediction through dual-alignment of source and target domains.</p>
-        <p>
-          <a href="https://github.com/jackyzengl/DADA">
-            <span lang="zh">项目页面</span>
-            <span lang="en">Project Page</span>
-          </a>
-        </p>
-      </td>
-    </tr> -->
-    
+Postgraduate Courses:
+  <ul>
+      <li><span class="title">Deep Learning (2021~)</span></li>
+      <li><span class="title">Machine Learning (Spring 2021)</span></li>
+  </ul>
+Undergraduate Course:
+  <ul>
+      <li><span class="title">AI Computing Systems (2021~)</span></li>
+  </ul>
+</section>
+</div>
+<hr>
 
-          </tbody></table>
+    <!-- <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?u=pwyk&d=XqwwDPMtd8r7hty0E7GpsRO6tUEvxWPWr4ygvS5gCd8"></script>-->
 
-          
-					<table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;"><tbody>
-            <tr>
-              <td>
-                <h2>Miscellanea</h2>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            
-           
-            <tr>
-              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
-						     <div class="colored-box" style="background-color: #fcb97d;">
-								 <h2>Micropapers</h2>
-								 </div>
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
-                <a href="https://arxiv.org/abs/2112.11687">Squareplus: A Softplus-Like Algebraic Rectifier</a>
-                <br>
-                <a href="https://arxiv.org/abs/2010.09714">A Convenient Generalization of Schlick's Bias and Gain Functions</a>
-                <br>
-                <a href="https://arxiv.org/abs/1704.07483">Continuously Differentiable Exponential Linear Units</a>
-                <br>
-                <a href="https://jonbarron.info/data/cvpr2023_llm_workshop_annotated.pdf">Scholars & Big Models: How Can Academics Adapt?</a>
-              </td>
-            </tr>
+    <div class="mastfoot">
+        <div class="inner">
+          <p class="text-center">Updated February 2022, page created using <a href="http://getbootstrap.com/">Bootstrap</a></p>
+        </div>
+    </div>
 
-
-            <tr>
-              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
-						     <div class="colored-box" style="background-color: #aaba9e;">
-								 <h2>Recorded Talks</h2>
-								 </div>
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:center">
-                <a href="https://www.youtube.com/watch?v=h9vq_65eDas">View Dependent Podcast, 2024</a>
-								<br>
-                <a href="https://www.youtube.com/watch?v=4tDhYsFuEqo">Bay Area Robotics Symposium, 2023
-</a>
-								<br>
-                <a href="https://youtu.be/TvWkwDYtBP4?t=7604">EGSR Keynote, 2021</a>
-								<br>
-								<a href="https://www.youtube.com/watch?v=nRyOzHpcr4Q">TUM AI Lecture Series, 2020</a>
-								<br>
-								<a href="https://www.youtube.com/watch?v=HfJpQCBTqZs">Vision & Graphics Seminar at MIT, 2020</a>
-              </td>
-            </tr>
-
-            <tr>
-              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
-						     <div class="colored-box" style="background-color: #c6b89e;">
-								 <h2>Academic Service</h2>
-								 </div>
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:center">
-                <a href="https://iccv.thecvf.com/">Lead Area Chair, ICCV 2025</a>
-                <br>
-                <a href="https://cvpr.thecvf.com/Conferences/2025/Organizers">Lead Area Chair, CVPR 2025</a>
-                <br>
-                <a href="https://cvpr.thecvf.com/Conferences/2024/Organizers">Area Chair, CVPR 2024</a>
-                <br>
-                <a href="https://cvpr2023.thecvf.com/Conferences/2023/Organizers">Demo Chair, CVPR 2023</a>
-                <br>
-                <a href="https://cvpr2022.thecvf.com/area-chairs">Area Chair, CVPR 2022</a>
-                <br>
-                <a href="http://cvpr2021.thecvf.com/area-chairs">Area Chair & Award Committee Member, CVPR 2021</a>
-                <br>
-                <a href="http://cvpr2019.thecvf.com/area_chairs">Area Chair, CVPR 2019</a>
-                <br>
-                <a href="http://cvpr2018.thecvf.com/organizers/area_chairs">Area Chair, CVPR 2018</a>
-              </td>
-            </tr>
-						
-						
-           
-            <tr>
-              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
-						     <div class="colored-box" style="background-color: #edd892;">
-								 <h2>Teaching</h2>
-								 </div>
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:center">
-                <a href="http://inst.eecs.berkeley.edu/~cs188/sp11/announcements.html">Graduate Student Instructor, CS188 Spring 2011</a>
-                <br>
-                <a href="http://inst.eecs.berkeley.edu/~cs188/fa10/announcements.html">Graduate Student Instructor, CS188 Fall 2010</a>
-                <br>
-                <a href="http://aima.cs.berkeley.edu/">Figures, "Artificial Intelligence: A Modern Approach", 3rd Edition</a>
-              </td>
-            </tr>
-            
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:0px">
-                <br>
-                <p style="text-align:right;font-size:small;">
-                  Feel free to steal this website's <a href="https://github.com/jonbarron/jonbarron_website">source code</a>. <strong>Do not</strong> scrape the HTML from this page itself, as it includes analytics tags that you do not want on your own website &mdash; use the github code instead. Also, consider using <a href="https://leonidk.com/">Leonid Keselman</a>'s <a href="https://github.com/leonidk/new_website">Jekyll fork</a> of this page.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-        </td>
-      </tr>
-    </table>
-
-<script>
-// 移除DOMContentLoaded事件监听，直接初始化
-document.body.classList.add('english');
-document.getElementById('langToggle').textContent = 'EN/中文';
-
-document.getElementById('langToggle').addEventListener('click', function() {
-    document.body.classList.toggle('english');
-    this.textContent = document.body.classList.contains('english') ? 'EN/中文' : '中文/EN';
-});
-</script>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./bootstrap/assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
