@@ -5,3 +5,10 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
+.col-xs-7{
+  text-align: justify;
+}
+
+.col-xs-8{
+  text-align: justify;
+}
