@@ -13,8 +13,8 @@ body {
   text-align: justify;
 }
 
-.img-style {
-  width: 200px;
-  height: 100px;
+.col-xs-3 {
+  width: 100px;
+  height: 80px;
   object-fit: contain;
 }
