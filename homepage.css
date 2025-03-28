@@ -12,3 +12,9 @@ body {
 .col-xs-8{
   text-align: justify;
 }
+
+.col-xs-3 {
+  width: 100px;
+  height: 80px;
+  object-fit: contain;
+}
