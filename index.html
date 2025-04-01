@@ -110,8 +110,41 @@
           *,# indicates  corresponding and equal contribution author</div>
           <hr>
          <h3><strong>2025</strong></h3>
+
          <div class="row">
-            <p>comming soon...</p>
+          <div class="col-xs-3">
+            <img src="./images/2DGS-Room25IROS.png" class="img-responsive" alt="Responsive image"><br><br> 
+          </div>
+          <div class="col-xs-8" align="justify">  
+            <div><strong>2DGS-Room: Seed-Guided 2D Gaussian Splatting with Geometric Constrains for High-Fidelity Indoor Scene Reconstruction</strong></div>
+            <div>Wanting Zhang#, Haodong Xiang, Zhichao Liao, Xiansong Lai, Xinghui Li*, <strong>Long Zeng*</strong></strong>.</div>
+            <div>Submitted to IEEE/RSJ IROS 2025.</div>
+            <div><strong>Contribution:</strong>Recent advancements in 3D Gaussian Splatting have improved novel view synthesis with accelerated processing but have yet to deliver comparable performance in surface reconstruction. 
+              In this paper, we introduce 2DGS-Room, a novel method leveraging 2D Gaussian Splatting for high-fidelity indoor scene reconstruction. Specifically, we employ a seed-guided mechanism to control the distribution of 2D Gaussians, 
+              with the density of seed points dynamically optimized through adaptive growth and pruning mechanisms. To further improve geometric accuracy, we incorporate monocular depth and normal priors to provide constraints for details and textureless regions respectively. 
+              Extensive experiments on ScanNet and ScanNet++ datasets demonstrate that our method achieves state-of-the-art performance in indoor scene reconstruction..</div>
+            <div><a href="https://arxiv.org/abs/2412.03428">[ arXiv Paper ]</a>
+                <a href="https://github.com/jackyzengl/2DGS-Room">[ Code ] </a>
+            </div>
+          </div>
+        </div>
+
+         <div class="row">
+          <div class="col-xs-3">
+            <img src="./images/GaussianRoom25ICRA.png" class="img-responsive" alt="Responsive image"><br><br> 
+          </div>
+          <div class="col-xs-8" align="justify">  
+            <div><strong>GaussianRoom: Improving 3D Gaussian Splatting with SDF Guidance and Monocular Cues for Indoor Scene Reconstruction</strong></div>
+            <div>Haodong Xiang#, Xinghui Li#, Kai Cheng#, Xiansong Lai, Wanting Zhang, Zhichao Liao, <strong>Long Zeng*</strong>, Xueping Liu*</strong>.</div>
+            <div>IEEE Conference Robotic and Automation (<strong>ICRA</strong>), 2025.</div>
+            <div><strong>Contribution:</strong> When 3D Gaussian Splatting(3DGS) is applied to indoor scenes with a significant number of textureless areas, 3DGS yields incomplete and noisy reconstruction results 
+              due to the poor initialization of the point cloud and under-constrained optimization. Inspired by the continuity of signed distance field (SDF), which naturally has advantages in modeling surfaces, 
+              we present a unified optimizing framework integrating neural SDF with 3DGS.This framework incorporates 3DGS, a learnable neural SDF field, and normal/edge priors. 
+              Extensive experiments in ScanNet and ScanNet++ show that our method achieves state-of-the-art performance in both surface reconstruction and novel view synthesis.</div>
+            <div><a href="https://arxiv.org/abs/2405.19671">[ arXiv Paper ]</a>
+                <a href="https://github.com/jackyzengl/GaussianRoom">[ Code ] </a>
+            </div>
+          </div>
         </div>
 
          <h3><strong>2024</strong></h3>
